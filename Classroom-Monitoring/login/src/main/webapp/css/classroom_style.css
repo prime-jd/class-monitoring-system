@@ -1,0 +1,68 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(255, 165, 0, 0.5);/*#4da1ff;*/
+        }
+
+        .container {
+            width: 25%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .heading {
+            background-color:#9d0000;/*#4da1ff; SeaGreen color for heading */
+            color: white;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center; /* Center align the heading */
+        }
+
+        label {
+            font-weight: bold;
+            width: 120px;
+            margin-right: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        .checkbox {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .room-input,
+        .faculty-input,
+        .period-input {
+            flex: 1;
+        }
+
+        .checkbox {
+            margin-left: 10px;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color:#9d0000/*#4da1ff;*/;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }

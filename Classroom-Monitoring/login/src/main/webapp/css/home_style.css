@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply box-sizing to include padding and border in element's total width and height */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  /* Set body background color and font family */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Center container horizontally */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style header */
+  header {
+    background-color: #9d0000/*#4da1ff;*/;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style logo */
+  .logo img {
+    max-width: 200px;
+  }
+  
+  /* Style title */
+  .title h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .title h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style login and registration section */
+  .login-section {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:300px;
+    width:400px;
+  }  
+  .login-box,
+  .register-box {
+    position: absolute;
+    margin-bottom:20px;
+  }
+  .login-box{
+    margin-top: 10px;
+    font-size: 22px;
+  }
+  .register-box{
+    margin-top: 130px;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .login-box h3,
+  .register-box h3 {
+    margin-top: 0;
+  }
+  
+  /* Style features section */
+  .features-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .features-section ul {
+    list-style-type: none;
+  }
+  
+  .features-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style footer */
+  footer {
+    background-color: #9d0000/*#4da1ff;*/;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

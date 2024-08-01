@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+
+.main-content {
+    flex: 1; 
+}
+
+#login-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#login-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.dashboard {
+	
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dashboard a {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    background-color:brown;
+    color:white;
+    text-decoration: none;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+.dashboard a:hover {
+    background-color:rgba(255, 165, 0, 0.5);
+    color:brown;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.attendance-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.attendance-table input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+.attendance-table button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.attendance-table button:hover {
+    background-color: #45a049;
+}
+.attendance-table td:nth-child(6) {
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgba(255, 165, 0, 0.5);/* Updated header background color */
+    color:brown;
+    padding: 20px 0;
+    margin-bottom: auto;
+    border-radius:20px;
+}
+
+.weekday-options {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.weekday-options label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.weekday-options select {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+
+footer {
+    background-color: rgba(255, 165, 0, 0.5); /* Updated footer background color */
+    color: brown;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 114px;
+    border-radius:20px;
+}
+
+.profile{
+    display: flex;
+    justify-content: centre;
+    justify-items: centre;
+}
+
+.profile-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.profile-table th,
+.profile-table td{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 20px;
+}
+
+.profile-table td a{
+   
+    text-decoration: none;
+    color : gray
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+
+/* Basic Styles */
+.timetable-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible columns */
+    gap: 10px; 
+}
+
+.period {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.time, .subject, .teacher {
+    margin-bottom: 5px;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+}
+/* CSS for logout button */
+        .logout-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4da1ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s; 
+            text-decoration: none;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .logout-btn:hover {
+            transform: scale(1.1); /* Enlarge the button on hover */
+        }

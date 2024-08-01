@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color: #9d0000;
+    color: white; /* Text color */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: white;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table th {
+    background-color: #9d0000; /* Table header background color */
+    color: white;
+}
+
+.table td {
+    background-color: #ffffff; /* Table cell background color */
+}
+
+.table-bordered th{
+    border: 1px solid #ffffff; /* Dark red border color */
+}
+
+
+.table-bordered td {
+    border: 1px solid #9d0000; /* Dark red border color */
+}
+
+
+
+.table-bordered {
+    border: 1px solid #9d0000; /* Table border color */
+}
+
+
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+/* CSS for logout button */
+        .logout-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4da1ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s; 
+            text-decoration: none;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        
+        .logout-btn:hover {
+            transform: scale(1.1); /* Enlarge the button on hover */
+        }
